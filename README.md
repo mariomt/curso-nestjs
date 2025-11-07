@@ -44,6 +44,20 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Run Migrations
+```bash
+# Crear una migración a partir de los cambios que tenemos en nuestras entidades
+$ npm run migration:g -- ./migrations/nombreDeLaMigracion
+
+# Ejecutar los cambios de nuestra migraciones pendientes en nuestra base ded datos
+$ npm run migration:r
+
+# Revertir la migración
+$ npm run migration:revert
+
+```
+
+
 ## Run tests
 
 ```bash
