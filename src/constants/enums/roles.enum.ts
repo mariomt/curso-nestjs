@@ -1,0 +1,5 @@
+export enum ROLES {
+  ADMIN = 'ADMINISTRADOR',
+  STUDENT = 'ESTUDIANTE',
+  TEACHER = 'MAESTRO',
+}
